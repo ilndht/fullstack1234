@@ -1,0 +1,51 @@
+1.npm init -y 
+2.npm install --save express
+3.create .gitignore file 
+
+4. create folder called server 
+   index.js in server 
+
+5. node server/index to start server
+ctrl C to stop 
+
+6. npm install --save-dev nodemon 
+will auto change the server when you change code 
+
+7. change script in package.json to "dev" :"nodenom server/index"
+
+8. npm run dev 
+then change the index.js to see the difference 
+
+9. npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/node 
+
+10. create .babelrc file in the main folder 
+{
+    "presets": [
+        "@babel/preset-env"
+        // automatically detect the version
+    ]
+}
+
+11.go back to index.js , change to 
+import  Express  from "express"
+const app  = Express()
+
+12. Then use npm run dev
+
+
+13. npm install mongoose --save
+create database connection 
+
+14. npm install --save dotenv 
+secure database connection 
+
+15. create .env file 
+
+16.npm i --save-dev babel-plugin-module-resolver
+ 
+
+
+
+
+
+ 

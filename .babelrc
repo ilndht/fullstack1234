@@ -2,5 +2,14 @@
     "presets": [
         "@babel/preset-env"
         // automatically detect the version
+    ],
+    "plugins": [
+        ["module-resolver",{
+            "root": ["./"],
+            "alias":{
+                "controllers":"./server/controllers"
+                 
+            }
+        }]
     ]
 }
