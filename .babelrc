@@ -1,0 +1,6 @@
+{
+    "presets": [
+        "@babel/preset-env"
+        // automatically detect the version
+    ]
+}
